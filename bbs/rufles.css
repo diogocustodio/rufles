@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'BlockZone';
+	src: url('BlockZone.eot');
+	src: url('BlockZone.woff') format('woff'), url('BlockZone.ttf') format('truetype'), url('BlockZone.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+* {
+	font-family: 'BlockZone', monospace;
+	letter-spacing: -1px;
+
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+	font-smooth: never;
+	-webkit-font-smoothing : none;
+	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="30" style="font-size: 12px" fill="#ddd"><text y="15">█</text></svg>'), auto;
+}
+html {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+html, body {
+	width: 100%;
+	background: #000a00;
+}
+
+canvas {
+	z-index: 2;
+}
+#terminal span {
+	z-index: 1;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+#terminal, form {
+	margin-top: 20px;
+	background: black;
+	width: 640px;
+	height: 416px;
+	position: relative;
+}
+#example {
+	width: 720px;
+	height: 384px;
+	overflow: hidden;
+}
+#prompt, #terminal span {
+	background-color: transparent;
+	color: #fff;
+	line-height: 15px;
+	height: 15px;
+	top: -400px;
+	position: absolute;
+}
+#prompt:focus{
+	outline: none;
+}

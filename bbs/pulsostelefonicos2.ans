@@ -1,0 +1,22 @@
+[1;35mExemplo 1 - A dura‡ao da chamada foi de 11 minutos e foram registrados
+3 pulsos, sendo 1 de atendimendo e mais 2 pulsos de cadˆncia.
+[32mExemplo 2 - A dura‡ao da chamada foi de 2 minutos e foram registrados
+2 pulsos, sendo 1 de atendimendo e mais 1 pela cadˆncia que veio logo
+a seguir.
+[33mExemplo 3 - A dura‡ao da chamada foi de 3 minutos e foi registrado
+apenas 1 pulso (o de atendimento), pois nao chegou a acontecer a cadˆncia
+geral dos 4 minutos.
+[5;31mIMPORTANTE:[0;1;31m Como foi verificado no exemplo, o primeiro pulso de
+cadˆncia pode ocorrer a qualquer instante ap¢s o atendimento, e, a partir da¡
+os pulsos se normalizam, e ocorrem somente de 4 em 4 minutos. Assim, chamadas
+locais de mesma dura‡ao podem registrar quantidades diferentes de pulsos.
+[1m
+[33mCOMO SAO CALCULADOS OS PULSOS LOCAIS:[36m Cada terminal telef“nico tem
+direito a uma franquia mensal de 90 pulsos. Somente sao cobrados os
+pulsos excedentes aos 90. Os terminais telef“nicos possuem, em suas
+respectivas centrais, contadores individuais de pulsos. Todo mˆs ‚
+feita a leitura dos medidores e comparada com a do mˆs anterior. A
+partir da¡, basta uma simples opera‡ao matem tica, como se vˆ a seguir:
+
+[35mMˆs atual   [32mMˆs anterior   [33mConsumo   [34mFranquia    [31mPulsos excedentes
+[35m 32031 -[5C[32m31862 =[8C[33m169 -[5C[34m90 =[13C[31m79[0m

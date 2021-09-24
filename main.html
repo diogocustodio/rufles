@@ -1,0 +1,139 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Bem-Vindo(a) ao RUFLES</title>
+</head>
+<body bgcolor="Black" text="White" link="Yellow" vlink="Yellow" alink="Lime" background="europa.jpg" bgproperties="FIXED">
+
+<b><script>window.defaultStatus="Esta é a nossa página principal..."</script>
+<style type="text/css">
+<!-- A:hover { font-weight: bold; color:red;} -->
+</style>
+<bgsound src="images/rol.mid" loop="INFINITE"></bgsound>
+<center><br><br><br>
+<hr align="CENTER" width="100%" color="Red">
+<b>
+<br>
+Esse é o número de visitas que a Home Page do RUFLES On-Line BBS já teve!!<br>
+<script language="JavaScript">
+today = new Date();
+var thisyear = today.getYear();
+var thismonth = today.getMonth();
+var thisdate = today.getDate();
+var thatyear = 98;
+var thatmonth = 8;
+var thatdate = 19;
+var prestring = "A HomePage do RUFLES On-Line BBS está no ar a ";
+var fromyears = (thisyear - thatyear);
+var datenumber = (thisdate + thatdate);
+if (thismonth == 0)
+monthdates = (31);
+else if (thismonth == 1)
+monthdates = (28);
+else if (thismonth == 2)
+monthdates = (31);
+else if (thismonth == 3)
+monthdates = (30);
+else if (thismonth == 4)
+monthdates = (31);
+else if (thismonth == 5)
+monthdates = (30);
+else if (thismonth == 6)
+monthdates = (31);
+else if (thismonth == 7)
+monthdates = (31);
+else if (thismonth == 8)
+monthdates = (30);
+else if (thismonth == 9)
+monthdates = (31);
+else if (thismonth == 10)
+monthdates = (30);
+else if (thismonth == 11)
+monthdates = (31);
+if (fromyears == 0)
+yearssince = (prestring);
+else if (fromyears == 1)
+yearssince = (prestring + "");
+else yearssince = (prestring + fromyears + " anos");
+
+if (thisdate > thatdate) predatessince = (thisdate - thatdate);
+else predatessince = (thisdate + monthdates - thatdate)
+
+if (predatessince == 0) datessince = ("nenhum dia.");
+else if (predatessince == 1) datessince = ("1 dia.");
+else datessince = (predatessince + " dias.");
+
+if (thisyear > thatyear) {
+if (thismonth >= thatmonth) premonthssince = (thismonth - thatmonth);
+else premonthssince = (12 + thismonth - thatmonth);
+}
+
+else premonthssince = (thismonth - thatmonth);
+
+if (monthdates < datenumber) premonthssincetwo = (premonthssince + 1);
+else premonthssincetwo = (premonthssince);
+
+if (premonthssincetwo == 0) monthssince = (" ");
+else if (premonthssincetwo == 1) monthssince = ("1 mês");
+else monthssince = (premonthssincetwo + " meses");
+
+if (yearssince == prestring) commaone = (" ");
+else {
+if (monthssince == " ") (commaone = " e ");
+else commaone = (", ");
+}
+if (commaone == " e ") commatwo = (" ");
+else if (commaone == ", ") commatwo = (", e ");
+else if (yearssince == prestring) {
+if (monthssince == " ") (commatwo = " ");
+else commatwo = (" e ");
+}
+var finalstring = "&nbsp;";
+finalstring += (yearssince);
+finalstring += (commaone);
+finalstring += (monthssince);
+finalstring += (commatwo);
+finalstring += (datessince);
+document.write("<font color=white>"+finalstring);
+</script>
+<br><br>Essa página será melhor visualizada com a resolução de seu vídeo em <font color="Yellow"><b>800x600</b></font>.<br>
+Seu vídeo está configurado em: <font color="Yellow">
+<script language="JavaScript1.2">
+<!--
+document.writeln(screen.width + "x" + screen.height +"");
+//-->
+</script>
+</font><br><br><br><br><br><br><br></b>
+<hr align="CENTER" width="100%" color="Red"><br><br><br><br><br><br><br>
+</center>
+<center><table border="1" bgcolor="Black"><tbody><tr><td align="center">Essa página também é utilizável em outras linguagens<br>This page is also available in other languages.</td></tr><tr><td align="center">
+<form action="http://babelfish.altavista.digital.com/cgi-bin/translate" method="POST">
+<input type="hidden" name="doit" value="done">
+<input type="HIDDEN" name="urltext" value="http://www.infoway.com.br/~colvero/main.html">
+<b>Translate from (Traduzir de):</b>
+<select name="lp">
+<option value="en_fr">English to French</option>
+<option value="en_de">English to German</option>
+<option value="en_it">English to Italian</option>
+<option value="en_pt">English to Portuguese</option>
+<option value="en_es">English to Spanish</option>
+<option value="fr_en">French to English</option>
+<option value="de_en">German to English</option>
+<option value="it_en">Italian to English</option>
+<option value="es_en">Spanish to English</option>
+<option value="pt_en" selected="">Portuguese to English</option>
+</select><br></form></td></tr>
+<tr><td align="CENTER"><input type="Submit" value="Translate (Traduzir)"></td>
+</tr>
+
+</tbody></table></center></b>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-80902922-2', 'auto');
+ga('send', 'pageview');
+</script>
+
+</body></html>
